@@ -1,0 +1,59 @@
+{
+  "name": "robertoentringer",
+  "version": "0.0.3",
+  "description": "Roberto Entriner - Full-stack Web Developer @ Luxembourg",
+  "main": "main.js",
+  "bin": {
+    "robertoentringer": "main.js"
+  },
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint --fix ./main.js",
+    "prepublishOnly": "npm run lint && npm version patch && git push && git push --tags"
+  },
+  "keywords": [
+    "roberto",
+    "entringer",
+    "dev",
+    "luxembourg",
+    "developer",
+    "node",
+    "html",
+    "css",
+    "javascript",
+    "wordpress",
+    "ssh",
+    "git",
+    "github",
+    "npm",
+    "pwa",
+    "apps",
+    "seo",
+    "mailchimp",
+    "mysql",
+    "macos",
+    "websites",
+    "vuejs",
+    "dns"
+  ],
+  "author": "Roberto Entringer <r.entringer@gmail.com> (https://robertoentringer.dev/)",
+  "license": "MIT",
+  "dependencies": {
+    "remove-markdown": "^0.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "prettier": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertoentringer/robertoentringer-resume.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoentringer/robertoentringer-resume/issues"
+  },
+  "homepage": "https://github.com/robertoentringer/robertoentringer-resume#readme"
+}
