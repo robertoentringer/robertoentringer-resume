@@ -12,3 +12,9 @@ I am practiced in the areas of hosting, SEO, progressive web apps, back-end and 
 • Linkedin : [https://www.linkedin.com/in/robertoentringer](https://www.linkedin.com/in/robertoentringer)<br>
 • Npm : [https://www.npmjs.com/~rentringer](https://www.npmjs.com/~rentringer)<br>
 • Website : [https://robertoentringer.dev](https://robertoentringer.dev)<br>
+
+## Usage
+
+```shell
+$ npx robertoentringer
+```
