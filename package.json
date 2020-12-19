@@ -6,6 +6,7 @@
   "bin": {
     "robertoentringer": "main.js"
   },
+  "files": ["main.js", "README.md"],
   "scripts": {
     "start": "node .",
     "lint": "eslint --fix ./main.js",
