@@ -3,7 +3,9 @@
   "version": "0.0.6",
   "description": "Roberto Entriner - Full-stack Web Developer @ Luxembourg",
   "main": "main.js",
-  "bin": "main.js",
+  "bin": {
+    "robertoentringer": "main.js"
+  },
   "scripts": {
     "start": "node .",
     "lint": "eslint --fix ./main.js",
